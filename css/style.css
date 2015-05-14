@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  background: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #575c5f;
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+header {
+  background: white;
+  padding: 50px; }
+  header h1 {
+    font-size: 5vh;
+    color: #00BDE5;
+    margin-bottom: 0;
+    margin-top: 15%; }
+  header h2 {
+    margin-top: 0;
+    margin-bottom: 5%; }
+  header .tips {
+    width: 40%;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 5%; }
+
+.col-container .col {
+  width: 50%;
+  float: left;
+  padding-right: 30px; }
+  .col-container .col h3 {
+    margin: 0; }
+
+.col-container:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+code {
+  background: white;
+  padding: 2px 5px;
+  color: #444;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid #ccc; }
+
+p {
+  line-height: 1.5em; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:visited {
+  font-weight: normal; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: underline; }
+
+.primary {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  background: #00BDE5;
+  font-weight: bold;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease; }
+
+.btn:hover {
+  background: white;
+  color: #00BDE5;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-decoration: none; }
+
+.secondary {
+  color: #004990;
+  display: inline-block;
+  border-radius: 5px; }
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    padding: 10px; }
+
+  header {
+    padding: 5px; }
+    header h1 {
+      margin: 0; }
+    header .tips {
+      width: 100%; }
+
+  .primary {
+    width: 100%;
+    font-size: 1.5em; }
+
+  .secondary {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%; } }
